@@ -14,6 +14,13 @@ gem 'sass-rails',   '5.0.6'
 gem 'turbolinks',   '5.0.1'
 gem 'uglifier',     '3.2.0'
 
+#サンプルユーザー作成
+gem 'faker',          '1.7.3'
+
+#ページネーション
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 group :development, :test do
   gem 'byebug',  '9.0.6', platform: :mri
   gem 'sqlite3', '1.3.13'
